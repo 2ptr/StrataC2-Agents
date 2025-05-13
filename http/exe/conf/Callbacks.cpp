@@ -1,6 +1,6 @@
+#include <winsock2.h>
 #include <windows.h>
 #include <Lmcons.h>
-#include <winsock2.h>
 #include <iphlpapi.h>
 #include <psapi.h>
 #include <ws2tcpip.h>
