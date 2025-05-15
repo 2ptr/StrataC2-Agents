@@ -11,11 +11,10 @@ add_executable(exe main.cpp
         commands/CommandHelper.h
         commands/Filesystem.cpp
         commands/Execution.cpp
+        commands/Management.cpp
 )
 if (WIN32)
-    set_target_properties(exe PROPERTIES
-            LINK_FLAGS "-Wl,-subsystem,windows"
-    )
+    # set_target_properties(exe PROPERTIES LINK_FLAGS "-Wl,-subsystem,windows" )
 endif()
 
 target_link_libraries(exe PRIVATE winhttp wininet iphlpapi ws2_32 )

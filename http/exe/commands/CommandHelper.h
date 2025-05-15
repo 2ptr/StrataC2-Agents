@@ -9,7 +9,8 @@ public:
     static std::string handleCommand(const std::string &cmd, const std::vector<std::string> &args);
 
     // Management
-    static std::string cmd_die(std::string cmd, const std::vector<std::string> &args);
+    static std::string cmd_die(const std::string& cmd, const std::vector<std::string> &args);
+    static std::string cmd_sleep(const std::string& cmd, const std::vector<std::string> &args);
 
     // Filesystem
     static std::string cmd_cat(std::string cmd, const std::vector<std::string> &args);

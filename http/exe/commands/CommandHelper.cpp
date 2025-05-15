@@ -5,6 +5,7 @@
 std::string CommandHelper::handleCommand(const std::string &cmd, const std::vector<std::string> &args) {
     // Management
     if (cmd == "die") { return cmd_die(cmd, args); }
+    if (cmd == "sleep") { return cmd_sleep(cmd, args); }
 
     // Filesystem
     if (cmd == "cat") { return cmd_cat(cmd, args); }
@@ -21,9 +22,4 @@ std::string CommandHelper::handleCommand(const std::string &cmd, const std::vect
     // Execution
     if (cmd == "shell") { return cmd_shell(cmd, args); }
     return "Command not implemented.";
-}
-
-std::string CommandHelper::cmd_die(std::string cmd, const std::vector<std::string> &args) {
-    exit(0);
-    return "";
 }

