@@ -1,10 +1,6 @@
-//
-// Created by jake.otte on 5/12/2025.
-//
-
+#include <vector>
 #include "CommandHelper.h"
 
-#include <vector>
 
 std::string CommandHelper::handleCommand(const std::string &cmd, const std::vector<std::string> &args) {
     // Management

@@ -1,5 +1,6 @@
 #include <winsock2.h>
 #include <windows.h>
+#include <winhttp.h>
 #include <Lmcons.h>
 #include <iphlpapi.h>
 #include <psapi.h>
@@ -8,6 +9,7 @@
 #include <random>
 #include "Callbacks.h"
 #include "Config.h"
+
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "psapi.lib")

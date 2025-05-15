@@ -1,7 +1,3 @@
-//
-// Created by jake.otte on 5/12/2025.
-//
-
 #ifndef CONFIG_H
 #define CONFIG_H
 #include <map>

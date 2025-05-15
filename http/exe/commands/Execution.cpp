@@ -1,6 +1,3 @@
-//
-// Created by jake.otte on 5/12/2025.
-//
 #include <windows.h>
 #include <string>
 #include "CommandHelper.h"

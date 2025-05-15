@@ -1,6 +1,3 @@
-//
-// Created by jake.otte on 5/12/2025.
-//
 #include <sstream>
 #include <windows.h>
 #include <string>

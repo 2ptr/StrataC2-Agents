@@ -1,6 +1,5 @@
 #ifndef CALLBACKS_H
 #define CALLBACKS_H
-#include <winhttp.h>
 #include <string>
 #include <vector>
 #include "../lib/json.hpp"
