@@ -127,7 +127,7 @@ CMD_QUEUE CallbackFull::json_to_cmd_queue(const std::string& response_body) {
 // Returns true if successful POST.
 bool CallbackFull::make_post_request(const std::wstring& host, int port, const std::string& post_body, std::string& return_body) {
     HINTERNET hSession = WinHttpOpen(
-        USER_AGENT.c_str(),
+        USER_AGENT,
         WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
         WINHTTP_NO_PROXY_NAME,
         WINHTTP_NO_PROXY_BYPASS,

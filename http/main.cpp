@@ -3,7 +3,7 @@
 #include "conf/Callbacks.h"
 #include "commands/CommandHelper.h"
 
-int main() {
+[[noreturn]] int main() {
     // Setup Callback structs
     CallbackMetadata metadata;
     metadata.retrieveMetadata();
